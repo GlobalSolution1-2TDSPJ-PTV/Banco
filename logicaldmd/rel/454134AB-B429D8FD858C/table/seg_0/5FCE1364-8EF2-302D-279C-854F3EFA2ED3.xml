@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FCE1364-8EF2-302D-279C-854F3EFA2ED3" name="sos">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>85EFA9F8-A114-C4C7-07C0-356B72C30837</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B1049FF6-6364-2D32-277A-0B6363E381E7">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>62564305-3003-200E-9611-1F28C8922201</importedID>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_id" id="0A2A1BEE-C868-80A1-1667-FC100C35FF8B">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>52894C70-C0A8-17FB-6578-6797DC078E4F</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EECDC382-EEE3-ED7E-2797-918946E96549" referredColumn="9667935A-92C6-1ED5-3497-319BBF5DEBF5"/>
+</associations>
+</Column>
+<Column name="latitude" id="3E8EB93C-6B61-9575-7B39-6838933BF00A">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>D481436C-78CE-F349-2CA3-078DD21E1756</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="807CB197-CB8E-EE48-FEDF-F1FCE0A7D22F">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>FB8290D1-0AA7-6EEF-0B5C-508A31A8CCC2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="649AE6F6-DE8F-41E4-CA1B-531F40664782">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>8F784052-AF43-E883-BEBF-EE5C810FBFDC</importedID>
+<constraintName>status_CHCK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="em_atendimento" description=""/>
+<valueDef value="pendente" description=""/>
+<valueDef value="resolvido" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="criado_em" id="9BBE83ED-2A36-F8DC-DBE6-A9ADD47EEE33">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>F6263F99-E06C-9FF9-607E-C158EB47C2C7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6D00AB16-9131-FC16-215C-83AB22FDBA37</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="422F4529-D785-6DE9-49A1-0E84B205D1C6" name="sos__IDX">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>8036367F-A719-932A-7DD6-369408F569E2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1049FF6-6364-2D32-277A-0B6363E381E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68C0037E-EDFE-2AC3-B089-415065E1E02A" name="fk_sos_usuario">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A2A1BEE-C868-80A1-1667-FC100C35FF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

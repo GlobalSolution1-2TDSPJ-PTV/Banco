@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEAB350E-6242-3FF4-991D-93C89FF088FB" name="abrigos">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>F52742F9-B4AB-8F5A-9263-D37C284539D4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E2DC89C6-4EB0-86A6-69FC-3AACEE68851A">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>377E3A53-B2D5-F6A5-6F28-E12F27FDAD7F</importedID>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="90E1B862-0D69-CE00-4925-0D5C03AB5F4C">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>9AAC6E81-67B5-4D60-36E8-84D893DB19D7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidade" id="F5AAD4EB-DDB2-67D0-DEEC-A123A0BEC93C">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>E222043F-B276-5C88-C900-D5E3A030D382</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocupacao_atual" id="5247EE4D-16BF-0010-268B-598E42EDB53A">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>3374FB05-52FB-C866-75EA-23F9CF704CC8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="DE1F5982-FDE0-57FD-C81C-257567C901E7">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>398F1E74-63E3-C5A7-329A-4C88D6A8167B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="CC42D232-7408-30CB-B76B-E4F2EC040BAA">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>95B72FF4-6DE0-C54D-6768-5D459D076AD1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="responsavel" id="8BEF721D-4D7E-E76E-F9E1-4679632D9C8F">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>30644C04-FC90-1B93-4F02-1F884F8812E7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="549AEEFE-1170-9C6D-8792-143D3F14D448" name="abrigos__IDX">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>7E995BC4-7084-4F59-9818-DF7B490F3B41</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2DC89C6-4EB0-86A6-69FC-3AACEE68851A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

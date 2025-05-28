@@ -1,0 +1,92 @@
+Oracle SQL Developer Data Modeler 19.4.0.350.1424
+Oracle SQL Developer Data Modeler Log de Importação
+Data e Hora: 2025-05-28 08:43:52 BRT
+Nome do Design: banco
+RDBMS : SQL Server 2012
+
+		Todas as Instruções: 		7
+		Instruções Importadas: 	7
+		Instruções com Falha: 		0
+		Nenhuma Instrução Reconhecida: 	0
+
+<<<<< ERRORS >>>>>
+Null domain occurred while creating usuarios
+
+Null domain occurred while creating usuarios
+
+Null domain occurred while creating usuarios
+
+Null domain occurred while creating usuarios
+
+Null domain occurred while creating usuarios
+
+Null domain occurred while creating usuarios
+
+Null domain occurred while creating usuarios
+
+Null domain occurred while creating usuarios
+
+Null domain occurred while creating sensores
+
+Null domain occurred while creating sensores
+
+Null domain occurred while creating sensores
+
+Null domain occurred while creating sensores
+
+Null domain occurred while creating sensores
+
+Null domain occurred while creating leituras_sensor
+
+Null domain occurred while creating leituras_sensor
+
+Null domain occurred while creating leituras_sensor
+
+Null domain occurred while creating leituras_sensor
+
+Null domain occurred while creating alertas
+
+Null domain occurred while creating alertas
+
+Null domain occurred while creating alertas
+
+Null domain occurred while creating alertas
+
+Null domain occurred while creating alertas
+
+Null domain occurred while creating sos
+
+Null domain occurred while creating sos
+
+Null domain occurred while creating sos
+
+Null domain occurred while creating sos
+
+Null domain occurred while creating sos
+
+Null domain occurred while creating abrigos
+
+Null domain occurred while creating abrigos
+
+Null domain occurred while creating abrigos
+
+Null domain occurred while creating abrigos
+
+Null domain occurred while creating abrigos
+
+Null domain occurred while creating abrigos
+
+Null domain occurred while creating abrigos
+
+Null domain occurred while creating drones
+
+Null domain occurred while creating drones
+
+Null domain occurred while creating drones
+
+Null domain occurred while creating drones
+
+Null domain occurred while creating drones
+
+Null domain occurred while creating drones
+

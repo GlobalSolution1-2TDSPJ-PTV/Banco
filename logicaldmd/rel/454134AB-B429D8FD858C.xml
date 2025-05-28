@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="banco" id="454134AB-F119-7B43-FC5C-B429D8FD858C" mainViewID="20583F9A-CC1F-FE69-4F34-E5C714FB0B30">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:43:52 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>banco.sql</fileName>
+<pathName>C:\Users\Vinicius\Documents\ESTUDO\GS1_2025\DataBase</pathName>
+<dbType>13</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

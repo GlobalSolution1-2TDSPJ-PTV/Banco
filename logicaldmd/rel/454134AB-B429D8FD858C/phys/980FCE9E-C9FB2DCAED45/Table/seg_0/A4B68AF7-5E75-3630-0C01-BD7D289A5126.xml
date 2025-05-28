@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="leituras_sensor" directorySegmentName="seg_0" id="A4B68AF7-5E75-3630-0C01-BD7D289A5126">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<schema>A246EB20-0983-CD77-ED42-7CA031193A99</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="id" id="1F9094F5-9C62-27F8-C35B-57D46ECB6522">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<defaultValue>SYS_GUID()</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="lido_em" id="2CBBFE6C-2A60-5A87-3963-A18CB6A41F72">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="unidade" id="68FC3E7B-E8C8-CA9D-971B-58C7F8484057">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="valor" id="79690F64-210A-A730-484B-0334A3942C95">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="sensor_id" id="A35D7803-72DB-370B-7DA5-22BE86775C6E">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_leitura_sensor" id="25BD2AD4-D9AB-951B-330E-B1093CBCF4C9">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="leituras_sensor__IDX" id="FB8070A6-8F6E-C7CB-DC7B-DC7BC0425489">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

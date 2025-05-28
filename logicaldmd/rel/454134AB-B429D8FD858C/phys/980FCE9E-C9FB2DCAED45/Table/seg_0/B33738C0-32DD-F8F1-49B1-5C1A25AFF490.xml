@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="alertas" directorySegmentName="seg_0" id="B33738C0-32DD-F8F1-49B1-5C1A25AFF490">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<schema>79253F31-1A8F-B48B-7F13-2AC45AFD7DB4</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="id" id="5FAC61D9-81A3-6A49-B6AA-ED81F8C2A149">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<defaultValue>SYS_GUID()</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="tipo" id="7A79EEB6-1483-2530-9C21-158EF5E1968B">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="resolvido" id="7D77EB33-56EA-F080-AB4C-F07E8DE272BD">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<defaultValue>&apos;N&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="mensagem" id="C7CE23A6-615E-832E-2E1E-B07C28845F3C">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="sensor_id" id="F45219A1-E205-3C4A-9ED5-FBDB171C1143">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="nivel" id="F679F252-AEEA-F486-A0C5-D5968B7489D8">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="criado_em" id="F8ED111A-5D1B-1D74-2003-AD4B48254DA4">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_alerta_sensor" id="8089FA91-629F-9C8F-331D-F7625FF469A5">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>banco</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="alertas__IDX" id="80962DFD-01F6-6964-0BB9-953AC309D6A5">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

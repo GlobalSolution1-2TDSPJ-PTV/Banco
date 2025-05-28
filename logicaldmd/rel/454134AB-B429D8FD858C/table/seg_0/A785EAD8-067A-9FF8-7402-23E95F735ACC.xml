@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A785EAD8-067A-9FF8-7402-23E95F735ACC" name="sensores">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>2AFC4B53-50CF-6E14-2AE4-59804109EACD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="162097DA-D4A3-BCA5-DA82-C5EFE8CA8728">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>7496515D-FB55-ECFB-CD2C-F20ABF95E248</importedID>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao" id="AF4322D7-1B31-E3E6-260A-C136C2F04F52">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>29B48E92-A624-CDE3-5AB5-B541A4C41AF9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="573F8923-9C6D-F6A5-C6CD-B9DB278CFF0F">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>EF185BBB-90BD-5834-4E95-0FD248876ACE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="AE248113-148B-7337-9849-8165B38D7E10">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>0BE46ABD-DC36-9BE5-8780-B066CE874099</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="855AAD98-8ECC-854B-71A8-5DB981A7E4D2">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>E1F78170-8BFF-127A-42A4-174AF1E8FF6C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ativo" id="21389CC2-198B-DEBC-B55E-04421E208607">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>890082BF-C9B2-6185-2FF5-A8A6F8BF2250</importedID>
+<constraintName>ativo_CHCK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>F82EE045-DA31-A034-07DD-2F0B0EB7A844</domain>
+<listOfValues>
+<valueDef value="N" description=""/>
+<valueDef value="S" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instalado_em" id="77A53CFE-D0BF-3B6B-49F5-6B578B9DD5E0">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>E63C9999-0B93-2A4A-8EF1-0C992F1155F1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6D00AB16-9131-FC16-215C-83AB22FDBA37</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F0AE155-1BE7-45D3-4F35-6DE2365A4039" name="sensores__IDX">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>F7923C5D-995E-59BC-B3D6-D59E0A47E7B9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="162097DA-D4A3-BCA5-DA82-C5EFE8CA8728"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="sensores" directorySegmentName="seg_0" id="A785EAD8-067A-9FF8-7402-23E95F735ACC">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<schema>57663DF0-7EE9-5401-8585-7421161B79D3</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="id" id="162097DA-D4A3-BCA5-DA82-C5EFE8CA8728">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<defaultValue>SYS_GUID()</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ativo" id="21389CC2-198B-DEBC-B55E-04421E208607">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="latitude" id="573F8923-9C6D-F6A5-C6CD-B9DB278CFF0F">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="instalado_em" id="77A53CFE-D0BF-3B6B-49F5-6B578B9DD5E0">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="tipo" id="855AAD98-8ECC-854B-71A8-5DB981A7E4D2">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="longitude" id="AE248113-148B-7337-9849-8165B38D7E10">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="localizacao" id="AF4322D7-1B31-E3E6-260A-C136C2F04F52">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="sensores__IDX" id="5F0AE155-1BE7-45D3-4F35-6DE2365A4039">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

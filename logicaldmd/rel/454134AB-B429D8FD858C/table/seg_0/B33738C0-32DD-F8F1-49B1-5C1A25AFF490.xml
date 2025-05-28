@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B33738C0-32DD-F8F1-49B1-5C1A25AFF490" name="alertas">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>9B5FEA4D-2065-AB0E-B887-834F14FF0E93</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5FAC61D9-81A3-6A49-B6AA-ED81F8C2A149">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>C4C7D631-AEBB-C871-6658-54B3B526C787</importedID>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sensor_id" id="F45219A1-E205-3C4A-9ED5-FBDB171C1143">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>3285CDAD-7BD1-426D-DF4F-2226E833C00A</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="627C74A0-69A5-2961-DE7C-B9BB86027455" referredColumn="162097DA-D4A3-BCA5-DA82-C5EFE8CA8728"/>
+</associations>
+</Column>
+<Column name="tipo" id="7A79EEB6-1483-2530-9C21-158EF5E1968B">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>BA75B880-77CD-B454-FAF6-01CD5BA6CE23</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mensagem" id="C7CE23A6-615E-832E-2E1E-B07C28845F3C">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>BE167160-2B80-3A4B-DA7F-FCB07B3C20C9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel" id="F679F252-AEEA-F486-A0C5-D5968B7489D8">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>2BC8BCF8-DC16-70CA-1944-339661318F5C</importedID>
+<constraintName>nivel_CHCK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="baixo" description=""/>
+<valueDef value="critico" description=""/>
+<valueDef value="moderado" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="criado_em" id="F8ED111A-5D1B-1D74-2003-AD4B48254DA4">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>6F0F3ED3-32AF-C5C2-43BA-17AFEADAE0B7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6D00AB16-9131-FC16-215C-83AB22FDBA37</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resolvido" id="7D77EB33-56EA-F080-AB4C-F07E8DE272BD">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>4BB71A2E-572D-C46C-1327-5B657B973F20</importedID>
+<constraintName>resolvido_CHCK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>F82EE045-DA31-A034-07DD-2F0B0EB7A844</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<listOfValues>
+<valueDef value="N" description=""/>
+<valueDef value="S" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80962DFD-01F6-6964-0BB9-953AC309D6A5" name="alertas__IDX">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>F5E27015-7DBF-F5FC-8E1E-161F0C9E70A2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FAC61D9-81A3-6A49-B6AA-ED81F8C2A149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8089FA91-629F-9C8F-331D-F7625FF469A5" name="fk_alerta_sensor">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F45219A1-E205-3C4A-9ED5-FBDB171C1143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignSqlServerv2k12 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.StorageDesignSqlServerv2k12" name="SQL Server 2012" id="221F5AE8-2A69-C5C5-04B1-A6C6F4BEB52D" siteID="980FCE9E-D688-BDF0-C89A-C9FB2DCAED45" siteName="SQL Server 2012" siteType="13">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:16 UTC</createdTime>
+<ownerDesignName>Sem título_1</ownerDesignName>
+<dtdialogVisible>false</dtdialogVisible>
+<imported>false</imported>
+</StorageDesignSqlServerv2k12>

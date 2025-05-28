@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logicaldmd" id="A46A0A95-E7FB-3713-80C8-ECAEDD355ECF" version="3.5">
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:28:21 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A46A0A95-E7FB-3713-80C8-ECAEDD355ECF</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DB9FCA1E-D8DF-E68F-F3C9-4F5854E8593C">
+<designStoragePath>C:\banco</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

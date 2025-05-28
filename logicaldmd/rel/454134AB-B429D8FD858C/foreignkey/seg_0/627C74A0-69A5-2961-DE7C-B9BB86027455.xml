@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="627C74A0-69A5-2961-DE7C-B9BB86027455" containerWithKeyObject="B33738C0-32DD-F8F1-49B1-5C1A25AFF490" localFKIndex="8089FA91-629F-9C8F-331D-F7625FF469A5" name="fk_alerta_sensor">
+<sourceDDLFile>banco.sql</sourceDDLFile>
+<createdBy>Vinicius</createdBy>
+<createdTime>2025-05-28 11:44:22 UTC</createdTime>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<importedID>09B44AE3-24AF-419E-DA68-263E0A55F302</importedID>
+<referredTableLongName>sensores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A785EAD8-067A-9FF8-7402-23E95F735ACC</referredTableID>
+<keyObject>5F0AE155-1BE7-45D3-4F35-6DE2365A4039</keyObject>
+<referredKeyID>5F0AE155-1BE7-45D3-4F35-6DE2365A4039</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
