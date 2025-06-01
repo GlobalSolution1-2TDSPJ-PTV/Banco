@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77953364-646F-A8F8-39F8-DAFD58B3E72E" name="abrigos">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>EEAB350E-6242-3FF4-991D-93C89FF088FB</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6F9A4B70-B823-CEFB-8C3A-185C0F78A287">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>E2DC89C6-4EB0-86A6-69FC-3AACEE68851A</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="5D542182-E256-E4EA-49CF-0CEDD5A51DBC">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>90E1B862-0D69-CE00-4925-0D5C03AB5F4C</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidade" id="051B4FB8-7271-9886-3F55-BF17A00F500B">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>F5AAD4EB-DDB2-67D0-DEEC-A123A0BEC93C</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocupacao atual" id="8905A558-03F1-FE74-8FC6-EB1E6FDCBA75">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>5247EE4D-16BF-0010-268B-598E42EDB53A</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="70BBC1DA-1036-6CEE-5501-9889D036F264">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>DE1F5982-FDE0-57FD-C81C-257567C901E7</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="7C1F03A5-9AC0-04D2-E464-522885A85225">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>CC42D232-7408-30CB-B76B-E4F2EC040BAA</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="responsavel" id="D5D221C5-160F-31C3-17B8-553376DF8149">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>8BEF721D-4D7E-E76E-F9E1-4679632D9C8F</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCF27A4C-2765-85E1-10C1-ACD230517945" name="abrigos  IDX">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>549AEEFE-1170-9C6D-8792-143D3F14D448</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F9A4B70-B823-CEFB-8C3A-185C0F78A287</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

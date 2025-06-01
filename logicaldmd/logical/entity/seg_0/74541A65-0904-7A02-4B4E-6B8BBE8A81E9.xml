@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74541A65-0904-7A02-4B4E-6B8BBE8A81E9" name="drones">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>772760E8-1BB1-E192-248E-236F4CD2C78E</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="483F7CEF-35DE-9746-985D-FEBEC3AC2E97">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>CCEAA616-F2E4-861B-6E01-67DBA5FB146B</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="A1084D27-81F2-030B-53E5-BCC84BD042D3">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>9F469E42-F05B-4975-A94E-EA48604E681D</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="A089C0A3-9414-C747-A5A1-9B15395B2509">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>8A695D8E-1D89-CD40-A3EE-68BB4CCF1711</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<constraintName>status_CHCK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="ativo" description=""/>
+<valueDef value="em_missao" description=""/>
+<valueDef value="offline" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="local atual" id="F751EA75-72AA-C6A0-BBE4-A2CA625ED70E">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>4F1CFF70-D908-D2B1-9300-B17A61351489</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="93EA4440-16BB-3585-B452-9EAE9111A425">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>4B1FC4C8-1E2A-9462-63E9-607A12A4E576</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="32E14D25-A918-A6EE-91CB-931872036626">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>DA86D29E-3567-16AF-0473-FE5B16785677</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7AFB644-7E85-A058-2941-A673409C0E8D" name="drones  IDX">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>B9A2F49F-A690-FDB4-F8CA-C5CABAB40640</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>483F7CEF-35DE-9746-985D-FEBEC3AC2E97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

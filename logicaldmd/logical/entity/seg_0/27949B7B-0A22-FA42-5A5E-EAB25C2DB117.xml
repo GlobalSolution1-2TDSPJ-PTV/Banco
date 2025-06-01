@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27949B7B-0A22-FA42-5A5E-EAB25C2DB117" name="sensores">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>A785EAD8-067A-9FF8-7402-23E95F735ACC</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6C3BC924-2AF8-2AE5-DFE3-6C725B59DFD6">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>162097DA-D4A3-BCA5-DA82-C5EFE8CA8728</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localizacao" id="994F542A-22A6-5037-07E4-4F0DD4C20B92">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>AF4322D7-1B31-E3E6-260A-C136C2F04F52</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="14590C6D-F690-0C22-5C83-A06619DE50ED">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>573F8923-9C6D-F6A5-C6CD-B9DB278CFF0F</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="9C8221EB-A29D-7130-F2BB-FE87AD08901B">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>AE248113-148B-7337-9849-8165B38D7E10</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="CD4D1FD9-A9DD-AAC8-92EA-667AEBC26086">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>855AAD98-8ECC-854B-71A8-5DB981A7E4D2</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ativo" id="F2EBDF39-26F0-3A5F-636F-9E86C2BC4FFB">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>21389CC2-198B-DEBC-B55E-04421E208607</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<constraintName>ativo_CHCK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>F82EE045-DA31-A034-07DD-2F0B0EB7A844</domain>
+<listOfValues>
+<valueDef value="N" description=""/>
+<valueDef value="S" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instalado em" id="77D4C49C-9E41-FBEB-EF4E-CB47603CBD69">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>77A53CFE-D0BF-3B6B-49F5-6B578B9DD5E0</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6D00AB16-9131-FC16-215C-83AB22FDBA37</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D12C4972-84F7-9974-0AA3-090EB44D96C5" name="sensores  IDX">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>5F0AE155-1BE7-45D3-4F35-6DE2365A4039</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C3BC924-2AF8-2AE5-DFE3-6C725B59DFD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

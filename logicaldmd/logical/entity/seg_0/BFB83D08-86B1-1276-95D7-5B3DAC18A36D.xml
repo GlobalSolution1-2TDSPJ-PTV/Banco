@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFB83D08-86B1-1276-95D7-5B3DAC18A36D" name="alertas">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>B33738C0-32DD-F8F1-49B1-5C1A25AFF490</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="06EA036F-DE0B-FFC1-22D0-A315A59A58DC">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>5FAC61D9-81A3-6A49-B6AA-ED81F8C2A149</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sensor id" id="610854A0-6720-D4FE-6AF7-0647ED9DEBC3">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>E401FA3A-422F-97DE-A5E1-D22175CE8B5A</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<referedAttribute>6C3BC924-2AF8-2AE5-DFE3-6C725B59DFD6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="5204D659-E1A9-12E1-92E0-3656F673A956">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>7A79EEB6-1483-2530-9C21-158EF5E1968B</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mensagem" id="0D26CA78-16EE-0DF9-CBA6-C63639B294F3">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>C7CE23A6-615E-832E-2E1E-B07C28845F3C</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel" id="1CADF047-2CA0-3F1B-1662-72BE1C28E496">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>F679F252-AEEA-F486-A0C5-D5968B7489D8</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<constraintName>nivel_CHCK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="baixo" description=""/>
+<valueDef value="critico" description=""/>
+<valueDef value="moderado" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="criado em" id="00EE8227-C822-8692-3F16-89322BC73A83">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>F8ED111A-5D1B-1D74-2003-AD4B48254DA4</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6D00AB16-9131-FC16-215C-83AB22FDBA37</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resolvido" id="EE5007E5-0BF3-5A37-E848-005C039CEF11">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>7D77EB33-56EA-F080-AB4C-F07E8DE272BD</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<constraintName>resolvido_CHCK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>F82EE045-DA31-A034-07DD-2F0B0EB7A844</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<listOfValues>
+<valueDef value="N" description=""/>
+<valueDef value="S" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69152B85-D6E4-93BD-D0FE-4FF623E3C694" name="alertas  IDX">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>80962DFD-01F6-6964-0BB9-953AC309D6A5</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06EA036F-DE0B-FFC1-22D0-A315A59A58DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

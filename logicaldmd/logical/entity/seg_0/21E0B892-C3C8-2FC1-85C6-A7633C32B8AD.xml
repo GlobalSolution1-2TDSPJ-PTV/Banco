@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21E0B892-C3C8-2FC1-85C6-A7633C32B8AD" name="leituras sensor">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>A4B68AF7-5E75-3630-0C01-BD7D289A5126</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="AE0EA9C1-5BCE-B3FB-0143-CFAB4DB4EA60">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>1F9094F5-9C62-27F8-C35B-57D46ECB6522</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<use>0</use>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYS_GUID()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sensor id" id="7D03E8C7-1FC5-BA34-DBBA-DBF68D67E510">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>B2F197FF-1D02-A681-738E-0CE2589F73B2</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<referedAttribute>6C3BC924-2AF8-2AE5-DFE3-6C725B59DFD6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="37381F85-9A49-0D8C-F00C-2D5017877BDB">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>79690F64-210A-A730-484B-0334A3942C95</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidade" id="8BE0FE0E-0DB7-8CDC-4FC2-3CCC833A798C">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>68FC3E7B-E8C8-CA9D-971B-58C7F8484057</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lido em" id="D65A22AE-19F8-F9DE-3FB9-D18FBC06E533">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>2CBBFE6C-2A60-5A87-3963-A18CB6A41F72</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6D00AB16-9131-FC16-215C-83AB22FDBA37</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="794B17E5-8F94-A08B-CFE4-F7BAA0B09B4D" name="leituras sensor  IDX">
+<createdBy>Pedro Henrique</createdBy>
+<createdTime>2025-06-01 22:17:54 UTC</createdTime>
+<generatorID>FB8070A6-8F6E-C7CB-DC7B-DC7BC0425489</generatorID>
+<ownerDesignName>logicaldmd</ownerDesignName>
+<engineerTo>
+<item key="D8518F6B-B4EC-C22F-EF13-62BE097873FB" value="true"/>
+<item key="454134AB-F119-7B43-FC5C-B429D8FD858C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE0EA9C1-5BCE-B3FB-0143-CFAB4DB4EA60</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
